@@ -1,0 +1,171 @@
+/*CSS reset*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+/* Navigation */
+#navbar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    /* flex-direction: column; */
+}
+#navbar{
+    position: relative;
+}
+#logo{
+    margin: 10px 34px;
+}
+
+#logo img{
+    height: 100px;
+    margin: 3px 6px;
+}
+#navbar ul{
+    display: flex;
+}
+#navbar::before{
+    content: "";
+    background-color: blueviolet;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+/*****************************************container**************************************************/
+.info{
+    /* background-color: aqua; */
+    width:50%;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    height: 300px;
+}
+/*************************************scholarship-info*************************************************/
+.container{
+    padding: 10px;
+    margin: auto;
+    width: 90%;
+    height: 100%;
+}
+.box3{
+    width:80%;
+    border: 1px solid black;
+    padding: 5px;
+}
+/***********************************************Login Page***************************************************/
+.log_img
+{
+	height: 721px;
+	margin-top: 0px;
+	background-image: url("images/lbs2.jpg");
+}
+.box1
+{
+	height: 400px;
+	width: 400px;
+	background-color: black;
+	margin: 70px auto;
+	opacity: .7;
+	color: white;
+	padding: 20px;
+}
+form .login
+{
+	margin: auto 50px;
+}
+input
+{
+	height: 25px;
+	width: 300px;
+
+}
+/*************************************************Registration Page**************************************************/
+.reg_img
+{
+	height: 721px;
+	margin-top: 0px;
+	background-image: url("images/lbs2.jpg");
+}
+.box2
+{
+	height: 500px;
+	width: 400px;
+	background-color: black;
+	margin: 0px auto;
+	opacity: .7;
+	color: white;
+	padding: 20px;
+}
+/*Scholarship section*/
+.button{
+  background-color: rgb(73, 60, 84);
+  border: none;
+  color: white;
+  padding: 6px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 17px;
+  cursor: pointer;
+}
+.button a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.information{
+    height: 70%;
+}
+table{
+    font-family: 'Times New Roman', Times, serif;
+    border-collapse:collapse;
+    width: 100%;
+    background-color: aquamarine;
+}
+td,th{
+    border: 1px solid black;
+    text-align: center;
+    padding: 8px;
+}
+tr:nth-child(even)
+{
+    background-color: beige;
+}
+.scholarship2{
+    width: 100px;
+    margin: 0px auto;
+    /* padding: 0px; */
+}
+.scholar {
+    width: 100%;
+}
+.box4{
+    padding: 10px;
+    margin: auto;
+    width: 90%;
+    height: 100%;
+}
